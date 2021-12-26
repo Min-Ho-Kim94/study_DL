@@ -14,10 +14,6 @@
 #     name: cook
 # ---
 
-import numpy as np
-import matplotlib.pyplot as plt
-
-
 class RNN:
     def __init__(self, Wx, Wh, b):
         self.params = [Wx, Wh, b]
