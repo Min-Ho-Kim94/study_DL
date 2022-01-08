@@ -61,8 +61,6 @@ test_loss, test_acc = model.evaluate(test_images, test_labels)
 test_acc
 
 
-# ## 5-1 합성곱 연산
-
 # +
 # Dense() : 완전연결층
 # Conv2D() : 합성곱 층 - 지역패턴을 학습
