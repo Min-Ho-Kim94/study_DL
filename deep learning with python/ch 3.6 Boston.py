@@ -32,7 +32,7 @@ std = train_data.std(axis=0)
 train_data /= std
 
 test_data -=mean
-test_data /= std
+test_data /= std 
 # -
 
 train_data
@@ -87,7 +87,7 @@ for i in range(k):
     # all_scores.append(val_mae)
     mae_history = history.history['val_mae']
     all_mae_histories.append(mae_history)
-     
+
 
 # +
 # all_mae_histories # list size?
