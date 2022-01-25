@@ -51,7 +51,7 @@ def build_model():
     model.add(layers.Dense(1)) # no 활성화함수.
     model.compile(optimizer='rmsprop', loss='mse',
                   metrics=['mae'])
-    return model
+    return modelL
 
 
 # -
